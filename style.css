@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+  }
+  
+  body {
+    padding-top: 20px;
+  }
+  .p1 {
+    background: linear-gradient(25deg, rgb(100 202 217), white);
+    background-size: cover;
+    width: 800px;
+    height: 600px;
+    padding: 2% 5%;
+    border-radius: 1%;
+  }
+  .p2 {
+    width: 100%;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  .d1 {
+    background: linear-gradient(25deg, rgb(100 202 217), white);
+    width: 50%;
+    height: 100%;
+    display: inline;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .l1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(13, 7, 46);
+    color: white;
+    margin: 5px 5px;
+    width: 150px;
+    height: 150px;
+    z-index: 1;
+    border-radius: 20px;
+  }
+  .im1{
+    display: block;
+    position: absolute;
+    width: 150px;
+    z-index: 0;
+    border-radius: 10px;
+    box-shadow: 3px 3px rgb(13, 7, 46);
+  }
+  
+  .d2 {
+    background: rgb(13, 7, 46);
+    color: white;
+    width: 50%;
+    height: 100%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Verdana, sans-serif;
+    padding: 40px 20px;
+  }
+  
+  input {
+    background: transparent;
+    border: 0.1px solid rgb(175, 164, 164);
+    padding: 10px 0px 3px 5px;
+    color:#fff;
+  }
+  .free {
+    color: green;
+    font-weight: 100;
+    font-size: medium;
+  }
+  .terms {
+    font-weight: 100;
+    font-size: xx-small;
+  }
+  
+  button {
+    background: rgb(100 202 217);
+    color: white;
+    padding: 7px 40px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+    font-size: xx-small;
+    font-weight: 50;
+  }
+  a:hover {
+    color: rgb(119, 128, 0);
+  }
+  .fd5 {
+    border: solid 1px;
+    border-color: transparent transparent white transparent;
+    padding: 0px 10px;
+    
+  }
+  .fd2 {
+    margin-top: 5px;
+  }
+  
+  .fd2 label {
+    font-weight: lighter;
+    font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif; 
+}  
+  .fd1 {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  button:hover {
+    background: rgb(255, 255, 255);
+    border: solid 0.5px white;
+color: rgb(13, 7, 46);  
+}
+  
+  .fd3 {
+    display: flex;
+    flex-direction: row;
+ }
